@@ -1,0 +1,81 @@
+:root {
+  --charcoal: #264653ff;
+  --persian-green: #2a9d8fff;
+  --maize-crayola: #e9c46aff;
+  --sandy-brown: #f4a261ff;
+  --burnt-sienna: #e76f51ff;
+}
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+}
+
+#text {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  padding: 1rem;
+  width: 50vw;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8rem;
+  color: white;
+  margin: 0;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#brand {
+  color: white;
+}
+
+#container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left,
+.right {
+  display: flex;
+  width: 50%;
+}
+
+.left {
+  background-image: url("../img/splash.jpg");
+  background-size: cover;
+}
+
+.right div {
+  flex: 1;
+}
+
+.stripe-1 {
+  background-color: var(--charcoal);
+}
+
+.stripe-2 {
+  background-color: var(--persian-green);
+}
+
+.stripe-3 {
+  background-color: var(--maize-crayola);
+}
+
+.stripe-4 {
+  background-color: var(--sandy-brown);
+}
+
+.stripe-5 {
+  background-color: var(--burnt-sienna);
+}
